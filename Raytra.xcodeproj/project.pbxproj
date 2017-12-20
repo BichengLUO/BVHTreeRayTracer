@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF1E9E701F63B9170059D663 /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF1E9E6F1F63B9170059D663 /* main.cc */; };
+		BF1E9E7E1F63C1740059D663 /* libHalf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1E9E771F63C1740059D663 /* libHalf.a */; };
+		BF1E9E7F1F63C1740059D663 /* libIex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1E9E781F63C1740059D663 /* libIex.a */; };
+		BF1E9E801F63C1740059D663 /* libIexMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1E9E791F63C1740059D663 /* libIexMath.a */; };
+		BF1E9E811F63C1740059D663 /* libIlmImf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1E9E7A1F63C1740059D663 /* libIlmImf.a */; };
+		BF1E9E821F63C1740059D663 /* libIlmImfUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1E9E7B1F63C1740059D663 /* libIlmImfUtil.a */; };
+		BF1E9E831F63C1740059D663 /* libIlmThread.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1E9E7C1F63C1740059D663 /* libIlmThread.a */; };
+		BF1E9E841F63C1740059D663 /* libImath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1E9E7D1F63C1740059D663 /* libImath.a */; };
+		BF3852881F7EFB28002459B4 /* renderer.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF3852861F7EFB28002459B4 /* renderer.cc */; };
+		BF38528B1F7F12C5002459B4 /* triangle.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF3852891F7F12C5002459B4 /* triangle.cc */; };
+		BF4386781F7827E40042278D /* exrIO.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF4386761F7827E40042278D /* exrIO.cc */; };
+		BF43867C1F7829470042278D /* parser.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF43867B1F7829470042278D /* parser.cc */; };
+		BF43867F1F782C400042278D /* sphere.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF43867D1F782C400042278D /* sphere.cc */; };
+		BF4386821F782C700042278D /* camera.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF4386801F782C700042278D /* camera.cc */; };
+		BF4E15151F9854EC008D385A /* plane.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF4E15131F9854EC008D385A /* plane.cc */; };
+		BFAAF8B61FEA2F03004EF050 /* libtbbmalloc_proxy.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAAF8B31FEA2F03004EF050 /* libtbbmalloc_proxy.dylib */; };
+		BFAAF8B71FEA2F03004EF050 /* libtbbmalloc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAAF8B41FEA2F03004EF050 /* libtbbmalloc.dylib */; };
+		BFAAF8B81FEA2F03004EF050 /* libtbb.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAAF8B51FEA2F03004EF050 /* libtbb.dylib */; };
+		BFBD44D51F8C10EF000233B0 /* progressbar.cc in Sources */ = {isa = PBXBuildFile; fileRef = BFBD44D31F8C10EF000233B0 /* progressbar.cc */; };
+		BFD09FD91F9E86A500399A08 /* shape.cc in Sources */ = {isa = PBXBuildFile; fileRef = BFD09FD81F9E86A500399A08 /* shape.cc */; };
+		BFE369E91F9EB79A00BD3666 /* bvhtree.cc in Sources */ = {isa = PBXBuildFile; fileRef = BFE369E71F9EB79A00BD3666 /* bvhtree.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF1E9E6A1F63B9170059D663 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF1E9E6C1F63B9170059D663 /* Raytra */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Raytra; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1E9E6F1F63B9170059D663 /* main.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		BF1E9E771F63C1740059D663 /* libHalf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHalf.a; path = OpenEXR_Libs/libHalf.a; sourceTree = "<group>"; };
+		BF1E9E781F63C1740059D663 /* libIex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIex.a; path = OpenEXR_Libs/libIex.a; sourceTree = "<group>"; };
+		BF1E9E791F63C1740059D663 /* libIexMath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIexMath.a; path = OpenEXR_Libs/libIexMath.a; sourceTree = "<group>"; };
+		BF1E9E7A1F63C1740059D663 /* libIlmImf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIlmImf.a; path = OpenEXR_Libs/libIlmImf.a; sourceTree = "<group>"; };
+		BF1E9E7B1F63C1740059D663 /* libIlmImfUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIlmImfUtil.a; path = OpenEXR_Libs/libIlmImfUtil.a; sourceTree = "<group>"; };
+		BF1E9E7C1F63C1740059D663 /* libIlmThread.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIlmThread.a; path = OpenEXR_Libs/libIlmThread.a; sourceTree = "<group>"; };
+		BF1E9E7D1F63C1740059D663 /* libImath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libImath.a; path = OpenEXR_Libs/libImath.a; sourceTree = "<group>"; };
+		BF3852811F7EE754002459B4 /* light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = light.h; sourceTree = "<group>"; };
+		BF3852841F7EED42002459B4 /* material.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
+		BF3852861F7EFB28002459B4 /* renderer.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = renderer.cc; sourceTree = "<group>"; };
+		BF3852871F7EFB28002459B4 /* renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = renderer.h; sourceTree = "<group>"; };
+		BF3852891F7F12C5002459B4 /* triangle.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = triangle.cc; sourceTree = "<group>"; };
+		BF38528A1F7F12C5002459B4 /* triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = triangle.h; sourceTree = "<group>"; };
+		BF38528C1F7F1415002459B4 /* shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shape.h; sourceTree = "<group>"; };
+		BF4386761F7827E40042278D /* exrIO.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exrIO.cc; sourceTree = "<group>"; };
+		BF4386771F7827E40042278D /* exrIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = exrIO.h; sourceTree = "<group>"; };
+		BF4386791F7829460042278D /* basicmath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = basicmath.h; sourceTree = "<group>"; };
+		BF43867A1F7829460042278D /* parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
+		BF43867B1F7829470042278D /* parser.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = parser.cc; sourceTree = "<group>"; };
+		BF43867D1F782C400042278D /* sphere.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sphere.cc; sourceTree = "<group>"; };
+		BF43867E1F782C400042278D /* sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		BF4386801F782C700042278D /* camera.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = camera.cc; sourceTree = "<group>"; };
+		BF4386811F782C700042278D /* camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		BF4E15131F9854EC008D385A /* plane.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = plane.cc; sourceTree = "<group>"; };
+		BF4E15141F9854EC008D385A /* plane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = plane.h; sourceTree = "<group>"; };
+		BF6573971FAFBDFA0049BE7B /* area_light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = area_light.h; sourceTree = "<group>"; };
+		BFAAF8B31FEA2F03004EF050 /* libtbbmalloc_proxy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbbmalloc_proxy.dylib; path = tbb_libs/libtbbmalloc_proxy.dylib; sourceTree = "<group>"; };
+		BFAAF8B41FEA2F03004EF050 /* libtbbmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbbmalloc.dylib; path = tbb_libs/libtbbmalloc.dylib; sourceTree = "<group>"; };
+		BFAAF8B51FEA2F03004EF050 /* libtbb.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbb.dylib; path = tbb_libs/libtbb.dylib; sourceTree = "<group>"; };
+		BFBD44D31F8C10EF000233B0 /* progressbar.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = progressbar.cc; sourceTree = "<group>"; };
+		BFBD44D41F8C10EF000233B0 /* progressbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = progressbar.h; sourceTree = "<group>"; };
+		BFD09FD71F9E839900399A08 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		BFD09FD81F9E86A500399A08 /* shape.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shape.cc; sourceTree = "<group>"; };
+		BFE369E71F9EB79A00BD3666 /* bvhtree.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bvhtree.cc; sourceTree = "<group>"; };
+		BFE369E81F9EB79A00BD3666 /* bvhtree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bvhtree.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF1E9E691F63B9170059D663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1E9E7E1F63C1740059D663 /* libHalf.a in Frameworks */,
+				BF1E9E7F1F63C1740059D663 /* libIex.a in Frameworks */,
+				BF1E9E801F63C1740059D663 /* libIexMath.a in Frameworks */,
+				BF1E9E811F63C1740059D663 /* libIlmImf.a in Frameworks */,
+				BF1E9E821F63C1740059D663 /* libIlmImfUtil.a in Frameworks */,
+				BF1E9E831F63C1740059D663 /* libIlmThread.a in Frameworks */,
+				BF1E9E841F63C1740059D663 /* libImath.a in Frameworks */,
+				BFAAF8B61FEA2F03004EF050 /* libtbbmalloc_proxy.dylib in Frameworks */,
+				BFAAF8B71FEA2F03004EF050 /* libtbbmalloc.dylib in Frameworks */,
+				BFAAF8B81FEA2F03004EF050 /* libtbb.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF1E9E631F63B9170059D663 = {
+			isa = PBXGroup;
+			children = (
+				BF1E9E6E1F63B9170059D663 /* Raytra */,
+				BF1E9E6D1F63B9170059D663 /* Products */,
+				BF1E9E761F63C1730059D663 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF1E9E6D1F63B9170059D663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF1E9E6C1F63B9170059D663 /* Raytra */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF1E9E6E1F63B9170059D663 /* Raytra */ = {
+			isa = PBXGroup;
+			children = (
+				BF1E9E6F1F63B9170059D663 /* main.cc */,
+				BF38528C1F7F1415002459B4 /* shape.h */,
+				BFD09FD81F9E86A500399A08 /* shape.cc */,
+				BF4386791F7829460042278D /* basicmath.h */,
+				BF43867A1F7829460042278D /* parser.h */,
+				BF43867B1F7829470042278D /* parser.cc */,
+				BF4386771F7827E40042278D /* exrIO.h */,
+				BF4386761F7827E40042278D /* exrIO.cc */,
+				BF43867E1F782C400042278D /* sphere.h */,
+				BF43867D1F782C400042278D /* sphere.cc */,
+				BF4386811F782C700042278D /* camera.h */,
+				BF4386801F782C700042278D /* camera.cc */,
+				BF3852811F7EE754002459B4 /* light.h */,
+				BF6573971FAFBDFA0049BE7B /* area_light.h */,
+				BF3852841F7EED42002459B4 /* material.h */,
+				BF3852871F7EFB28002459B4 /* renderer.h */,
+				BF3852861F7EFB28002459B4 /* renderer.cc */,
+				BF38528A1F7F12C5002459B4 /* triangle.h */,
+				BF3852891F7F12C5002459B4 /* triangle.cc */,
+				BFBD44D41F8C10EF000233B0 /* progressbar.h */,
+				BFBD44D31F8C10EF000233B0 /* progressbar.cc */,
+				BF4E15141F9854EC008D385A /* plane.h */,
+				BF4E15131F9854EC008D385A /* plane.cc */,
+				BFD09FD71F9E839900399A08 /* config.h */,
+				BFE369E81F9EB79A00BD3666 /* bvhtree.h */,
+				BFE369E71F9EB79A00BD3666 /* bvhtree.cc */,
+			);
+			path = Raytra;
+			sourceTree = "<group>";
+		};
+		BF1E9E761F63C1730059D663 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFAAF8B51FEA2F03004EF050 /* libtbb.dylib */,
+				BFAAF8B31FEA2F03004EF050 /* libtbbmalloc_proxy.dylib */,
+				BFAAF8B41FEA2F03004EF050 /* libtbbmalloc.dylib */,
+				BF1E9E771F63C1740059D663 /* libHalf.a */,
+				BF1E9E781F63C1740059D663 /* libIex.a */,
+				BF1E9E791F63C1740059D663 /* libIexMath.a */,
+				BF1E9E7A1F63C1740059D663 /* libIlmImf.a */,
+				BF1E9E7B1F63C1740059D663 /* libIlmImfUtil.a */,
+				BF1E9E7C1F63C1740059D663 /* libIlmThread.a */,
+				BF1E9E7D1F63C1740059D663 /* libImath.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF1E9E6B1F63B9170059D663 /* Raytra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1E9E731F63B9170059D663 /* Build configuration list for PBXNativeTarget "Raytra" */;
+			buildPhases = (
+				BF1E9E681F63B9170059D663 /* Sources */,
+				BF1E9E691F63B9170059D663 /* Frameworks */,
+				BF1E9E6A1F63B9170059D663 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raytra;
+			productName = OpenEXR_Test;
+			productReference = BF1E9E6C1F63B9170059D663 /* Raytra */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF1E9E641F63B9170059D663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Eagle Sky";
+				TargetAttributes = {
+					BF1E9E6B1F63B9170059D663 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = S9N2FFSC58;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF1E9E671F63B9170059D663 /* Build configuration list for PBXProject "Raytra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF1E9E631F63B9170059D663;
+			productRefGroup = BF1E9E6D1F63B9170059D663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF1E9E6B1F63B9170059D663 /* Raytra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF1E9E681F63B9170059D663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4E15151F9854EC008D385A /* plane.cc in Sources */,
+				BFBD44D51F8C10EF000233B0 /* progressbar.cc in Sources */,
+				BF1E9E701F63B9170059D663 /* main.cc in Sources */,
+				BFE369E91F9EB79A00BD3666 /* bvhtree.cc in Sources */,
+				BF4386781F7827E40042278D /* exrIO.cc in Sources */,
+				BF38528B1F7F12C5002459B4 /* triangle.cc in Sources */,
+				BF43867F1F782C400042278D /* sphere.cc in Sources */,
+				BF43867C1F7829470042278D /* parser.cc in Sources */,
+				BF3852881F7EFB28002459B4 /* renderer.cc in Sources */,
+				BF4386821F782C700042278D /* camera.cc in Sources */,
+				BFD09FD91F9E86A500399A08 /* shape.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF1E9E711F63B9170059D663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BF1E9E721F63B9170059D663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF1E9E741F63B9170059D663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S9N2FFSC58;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/openexr/2.2.0/include/OpenEXR/,
+					/usr/local/Cellar/ilmbase/2.2.0/include/OpenEXR/,
+					/usr/local/Cellar/tbb/2018_U2/include/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/openexr/2.2.0/lib/,
+					/usr/local/Cellar/ilmbase/2.2.0/lib/,
+					"$(PROJECT_DIR)/OpenEXR_Libs/",
+					/usr/local/Cellar/tbb/2018_U2/lib/,
+					"$(PROJECT_DIR)/tbb_libs/",
+					"$(PROJECT_DIR)/tbb_libs",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF1E9E751F63B9170059D663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S9N2FFSC58;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/openexr/2.2.0/include/OpenEXR/,
+					/usr/local/Cellar/ilmbase/2.2.0/include/OpenEXR/,
+					/usr/local/Cellar/tbb/2018_U2/include/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/openexr/2.2.0/lib/,
+					/usr/local/Cellar/ilmbase/2.2.0/lib/,
+					"$(PROJECT_DIR)/OpenEXR_Libs/",
+					/usr/local/Cellar/tbb/2018_U2/lib/,
+					"$(PROJECT_DIR)/tbb_libs/",
+					"$(PROJECT_DIR)/tbb_libs",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF1E9E671F63B9170059D663 /* Build configuration list for PBXProject "Raytra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1E9E711F63B9170059D663 /* Debug */,
+				BF1E9E721F63B9170059D663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1E9E731F63B9170059D663 /* Build configuration list for PBXNativeTarget "Raytra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1E9E741F63B9170059D663 /* Debug */,
+				BF1E9E751F63B9170059D663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF1E9E641F63B9170059D663 /* Project object */;
+}
